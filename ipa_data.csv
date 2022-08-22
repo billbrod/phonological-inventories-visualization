@@ -1,0 +1,105 @@
+,IPA_Number,Symbol,Symbol_Name,Description,Voicing,Place_of_Articulation,Manner_of_Articulation,Height,Backness,Rounding,Status,UCS_Code,AFII_Code,name,url
+0,101,p,lower-case P,,voiceless,bilabial,plosive,,,,,0070,E2A2,Voiceless bilabial plosive,https://en.wikipedia.org//wiki/Voiceless_bilabial_plosive
+1,102,b,lower-case B,,voiced,bilabial,plosive,,,,,0062,E2A3,Voiced bilabial plosive,https://en.wikipedia.org//wiki/Voiced_bilabial_plosive
+2,103,t,lower-case T,,voiceless,dental;alveolar,plosive,,,,,0074,E2B0,Voiceless alveolar plosive,https://en.wikipedia.org//wiki/Voiceless_alveolar_plosive
+3,104,d,lower-case D,,voiced,dental;alveolar,plosive,,,,,0064,E2B1,Voiced alveolar plosive,https://en.wikipedia.org//wiki/Voiced_alveolar_plosive
+4,105,ʈ,right-tail T,,voiceless,retroflex,plosive,,,,,0288,E2C7,Voiceless retroflex plosive,https://en.wikipedia.org//wiki/Voiceless_retroflex_plosive
+5,106,ɖ,right-tail D,,voiced,retroflex,plosive,,,,,0256,E2C8,Voiced retroflex plosive,https://en.wikipedia.org//wiki/Voiced_retroflex_plosive
+6,107,c,lower-case C,,voiceless,palatal,plosive,,,,,0063,E2D8,Voiceless palatal plosive,https://en.wikipedia.org//wiki/Voiceless_palatal_plosive
+7,108,ɟ,barred dotless J,,voiced,palatal,plosive,,,,,025F,E2D9,Voiced palatal plosive,https://en.wikipedia.org//wiki/Voiced_palatal_plosive
+8,109,k,lower-case K,,voiceless,velar,plosive,,,,,006B,E2DE,Voiceless velar plosive,https://en.wikipedia.org//wiki/Voiceless_velar_plosive
+9,110,ɡ,opentail G,,voiced,velar,plosive,,,,equivalent to 210,0261,E2DF,Voiced velar plosive,https://en.wikipedia.org//wiki/Voiced_velar_plosive
+10,111,q,lower-case Q,,voiceless,uvular,plosive,,,,,0071,E2E6,Voiceless uvular plosive,https://en.wikipedia.org//wiki/Voiceless_uvular_plosive
+11,112,ɢ,small capital G,,voiced,uvular,plosive,,,,,0262,E2E7,Voiced uvular plosive,https://en.wikipedia.org//wiki/Voiced_uvular_plosive
+12,113,ʔ,glottal stop,,,glottal,plosive,,,,,0294,E2ED,Glottal stop,https://en.wikipedia.org//wiki/Glottal_stop
+13,114,m,lower-case M,,voiced,bilabial,nasal,,,,,006D,E2A1,Voiced bilabial nasal,https://en.wikipedia.org//wiki/Voiced_bilabial_nasal
+14,115,ɱ,left-tail M (at right),,voiced,labiodental,nasal,,,,,0271,E2AB,Voiced labiodental nasal,https://en.wikipedia.org//wiki/Voiced_labiodental_nasal
+15,116,n,lower-case N,,voiced,dental;alveolar,nasal,,,,,006E,E2AF,Voiced alveolar nasal,https://en.wikipedia.org//wiki/Voiced_alveolar_nasal
+16,117,ɳ,right-tail N,,voiced,retroflex,nasal,,,,,0273,E2C6,Voiced retroflex nasal,https://en.wikipedia.org//wiki/Voiced_retroflex_nasal
+17,118,ɲ,left-tail N (at left),,voiced,palatal,nasal,,,,,0272,E2D7,Voiced palatal nasal,https://en.wikipedia.org//wiki/Voiced_palatal_nasal
+18,119,ŋ,eng,,voiced,velar,nasal,,,,,014B,E2DD,Voiced velar nasal,https://en.wikipedia.org//wiki/Voiced_velar_nasal
+19,120,ɴ,small capital N,,voiced,uvular,nasal,,,,,0274,E2E4,Voiced uvular nasal,https://en.wikipedia.org//wiki/Voiced_uvular_nasal
+20,121,ʙ,small capital B,,voiced,bilabial,trill,,,,,0299,E2F0,Voiced bilabial trill,https://en.wikipedia.org//wiki/Voiced_bilabial_trill
+21,122,r,lower-case R,,voiced,dental;alveolar,trill,,,,,0072,E2C0,Voiced alveolar trill,https://en.wikipedia.org//wiki/Voiced_alveolar_trill
+22,123,ʀ,small capital R,,voiced,uvular,trill,,,,,0280,E2EA,Voiced uvular trill,https://en.wikipedia.org//wiki/Voiced_uvular_trill
+23,124,ɾ,fish-hook R,,voiced,dental;alveolar,tap,,,,,027E,E2C1,Voiced dental and alveolar taps and flaps,https://en.wikipedia.org//wiki/Voiced_dental_and_alveolar_taps_and_flaps
+24,125,ɽ,right-tail R,,voiced,retroflex,flap,,,,,027D,E2CD,Voiced retroflex flap,https://en.wikipedia.org//wiki/Voiced_retroflex_flap
+25,126,ɸ,phi,,voiceless,bilabial,fricative,,,,,0278,E2A4,Voiceless bilabial fricative,https://en.wikipedia.org//wiki/Voiceless_bilabial_fricative
+26,127,β,beta,,voiced,bilabial,fricative,,,,,03B2,E2A5,Voiced bilabial fricative,https://en.wikipedia.org//wiki/Voiced_bilabial_fricative
+27,128,f,lower-case F,,voiceless,labiodental,fricative,,,,,0066,E2AC,Voiceless labiodental fricative,https://en.wikipedia.org//wiki/Voiceless_labiodental_fricative
+28,129,v,lower-case V,,voiced,labiodental,fricative,,,,,0076,E2AD,Voiced labiodental fricative,https://en.wikipedia.org//wiki/Voiced_labiodental_fricative
+29,130,θ,theta,,voiceless,dental,fricative,,,,,03B8,E2B2,Voiceless dental fricative,https://en.wikipedia.org//wiki/Voiceless_dental_fricative
+30,131,ð,eth,,voiced,dental,fricative,,,,,00F0,E2B3,Voiced dental fricative,https://en.wikipedia.org//wiki/Voiced_dental_fricative
+31,132,s,lower-case S,,voiceless,alveolar,fricative,,,,,0073,E2B6,Voiceless alveolar fricative,https://en.wikipedia.org//wiki/Voiceless_alveolar_fricative
+32,133,z,lower-case Z,,voiced,alveolar,fricative,,,,,007A,E2B7,Voiced alveolar fricative,https://en.wikipedia.org//wiki/Voiced_alveolar_fricative
+33,134,ʃ,esh,,voiceless,postalveolar,fricative,,,,,0283,E2D0,Voiceless postalveolar fricative,https://en.wikipedia.org//wiki/Voiceless_postalveolar_fricative
+34,135,ʒ,ezh;tailed Z,,voiced,postalveolar,fricative,,,,,0292,E2D1,Voiced postalveolar fricative,https://en.wikipedia.org//wiki/Voiced_postalveolar_fricative
+35,136,ʂ,right-tail S (at left),,voiceless,retroflex,fricative,,,,,0282,E2C9,Voiceless retroflex fricative,https://en.wikipedia.org//wiki/Voiceless_retroflex_fricative
+36,137,ʐ,right-tail Z,,voiced,retroflex,fricative,,,,,0290,E2CA,Voiced retroflex fricative,https://en.wikipedia.org//wiki/Voiced_retroflex_fricative
+37,138,ç,C cedilla,,voiceless,palatal,fricative,,,,,00E7,E2DA,Voiceless palatal fricative,https://en.wikipedia.org//wiki/Voiceless_palatal_fricative
+38,139,ʝ,curly-tail J,,voiced,palatal,fricative,,,,,029D,E2F3,Voiced palatal fricative,https://en.wikipedia.org//wiki/Voiced_palatal_fricative
+39,140,x,lower-case X,,voiceless,palatal,fricative,,,,,0078,E2E0,Voiceless velar fricative,https://en.wikipedia.org//wiki/Voiceless_velar_fricative
+40,141,ɣ,gamma,,voiced,velar,fricative,,,,,0263,E2E1,Voiced velar fricative,https://en.wikipedia.org//wiki/Voiced_velar_fricative
+41,142,χ,chi,,voiceless,uvular,fricative,,,,,03C7,E2E8,Voiceless uvular fricative,https://en.wikipedia.org//wiki/Voiceless_uvular_fricative
+42,143,ʁ,inverted small capital R,,voiced,uvular,fricative,,,,,0281,E2E9,Voiced uvular fricative,https://en.wikipedia.org//wiki/Voiced_uvular_fricative
+43,144,ħ,barred H,,voiceless,pharyngeal,fricative,,,,,0127,E2EB,Voiceless pharyngeal fricative,https://en.wikipedia.org//wiki/Voiceless_pharyngeal_fricative
+44,145,ʕ,reversed glottal stop,,voiced,pharyngeal,fricative;approximant,,,,,0295,E2EC,Voiced pharyngeal fricative,https://en.wikipedia.org//wiki/Voiced_pharyngeal_fricative
+45,146,h,lower-case H,,voiceless,glottal,fricative,,,,,0068,E2EE,Voiceless glottal fricative,https://en.wikipedia.org//wiki/Voiceless_glottal_fricative
+46,147,ɦ,hooktop G,,voiced,glottal,fricative,,,,,0266,E2EF,Voiced glottal fricative,https://en.wikipedia.org//wiki/Voiced_glottal_fricative
+47,148,ɬ,belted L,,voiceless,dental;alveolar,lateral fricative,,,,,026C,E2BB,Voiceless alveolar lateral fricative,https://en.wikipedia.org//wiki/Voiceless_alveolar_lateral_fricative
+48,149,ɮ,L-ezh ligature,,voiced,dental;alveolar,lateral fricative,,,,,026E,E2BC,Voiced alveolar lateral fricative,https://en.wikipedia.org//wiki/Voiced_alveolar_lateral_fricative
+49,150,ʋ,cursive V,,voiced,labiodental,approximant,,,,,028B,E2AE,Voiced labiodental approximant,https://en.wikipedia.org//wiki/Voiced_labiodental_approximant
+50,151,ɹ,turned R,,voiced,dental;alveolar,approximant,,,,,0279,E2BA,Voiced alveolar approximant,https://en.wikipedia.org//wiki/Voiced_alveolar_approximant
+51,152,ɻ,"turned R, right tail",,voiced,retroflex,approximant,,,,,027B,E2CB,Voiced retroflex approximant,https://en.wikipedia.org//wiki/Voiced_retroflex_approximant
+52,153,j,lower-case J,,voiced,palatal,approximant,,,,,006A,E2DB,Voiced palatal approximant,https://en.wikipedia.org//wiki/Voiced_palatal_approximant
+53,154,ɰ,"turned M, right leg",,voiced,velar,approximant,,,,,0270,E2E2,Voiced velar approximant,https://en.wikipedia.org//wiki/Voiced_velar_approximant
+54,155,l,lower-case L,,voiced,dental;alveolar,lateral approximant,,,,,006C,E2BD,Voiced alveolar lateral approximant,https://en.wikipedia.org//wiki/Voiced_alveolar_lateral_approximant
+55,156,ɭ,right-tail L,,voiced,retroflex,lateral approximant,,,,,026D,E2CC,Voiced retroflex lateral approximant,https://en.wikipedia.org//wiki/Voiced_retroflex_lateral_approximant
+56,157,ʎ,turned Y,,voiced,palatal,lateral approximant,,,,,028E,E2DC,Voiced palatal lateral approximant,https://en.wikipedia.org//wiki/Voiced_palatal_lateral_approximant
+57,158,ʟ,small capital L,,voiced,velar,lateral approximant,,,,,029F,E2F5,Voiced velar lateral approximant,https://en.wikipedia.org//wiki/Voiced_velar_lateral_approximant
+59,160,ɓ,hooktop B,,voiced,bilabial,implosive,,,,,0253,E2A9,Voiced bilabial implosive,https://en.wikipedia.org//wiki/Voiced_bilabial_implosive
+61,162,ɗ,hooktop D,,voiced,dental;alveolar,implosive,,,,,0257,E2C2,Voiced alveolar implosive,https://en.wikipedia.org//wiki/Voiced_alveolar_implosive
+63,164,ʄ,hooktop barred dotless J,,voiced,palatal,implosive,,,,,0284,E27C,Voiced palatal implosive,https://en.wikipedia.org//wiki/Voiced_palatal_implosive
+65,166,ɠ,hooktop G,,voiced,velar,implosive,,,,,0260,E27E,Voiced velar implosive,https://en.wikipedia.org//wiki/Voiced_velar_implosive
+67,168,ʛ,hooktop small capital G,,voiced,uvular,implosive,,,,,029B,E2F1,Voiced uvular implosive,https://en.wikipedia.org//wiki/Voiced_uvular_implosive
+68,169,ʍ,turned W,,voiceless,labial-velar,fricative,,,,,028D,E2A7,Voiceless labial–velar fricative,https://en.wikipedia.org//wiki/Voiceless_labial%E2%80%93velar_fricative
+69,170,w,lower-case W,,voiced,labial-velar,approximant,,,,,0077,E2A8,Voiced labial–velar approximant,https://en.wikipedia.org//wiki/Voiced_labial%E2%80%93velar_approximant
+70,171,ɥ,turned H,,voiced,labial-palatal,approximant,,,,,0265,E2A6,Voiced labial–palatal approximant,https://en.wikipedia.org//wiki/Voiced_labial%E2%80%93palatal_approximant
+71,172,ʜ,small capital H,,voiceless,epiglottal,fricative,,,,,029C,E2F2,Voiceless epiglottal trill,https://en.wikipedia.org//wiki/Voiceless_epiglottal_trill
+72,173,ʡ,barred glottal stop,,,epiglottal,plosive,,,,,02A1,E2F7,Epiglottal plosive,https://en.wikipedia.org//wiki/Epiglottal_plosive
+73,174,ʢ,barred reversed glottal stop,,voiced,epiglottal,fricative;approximant,,,,,02A2,E2F8,Voiced epiglottal trill,https://en.wikipedia.org//wiki/Voiced_epiglottal_trill
+80,181,ɺ,turned long-leg R,,voiced,alveolar,lateral flap,,,,,027A,E2BF,Voiced alveolar lateral flap,https://en.wikipedia.org//wiki/Voiced_alveolar_lateral_flap
+81,182,ɕ,curly-tail C,,voiceless,alveolo-palatal,fricative,,,,,0255,E2CE,Voiceless alveolo-palatal fricative,https://en.wikipedia.org//wiki/Voiceless_alveolo-palatal_fricative
+82,183,ʑ,curly-tail Z,,voiced,alveolo-palatal,fricative,,,,,0291,E2CF,Voiced alveolo-palatal fricative,https://en.wikipedia.org//wiki/Voiced_alveolo-palatal_fricative
+83,184,ⱱ,right-hook V,,voiced,labiodental,flap,,,,adopted (2005),2C71,,Voiced labiodental flap,https://en.wikipedia.org//wiki/Voiced_labiodental_flap
+92,209,ɫ,L with tilde,velarized,voiced,dental;alveolar,lateral approximant,,,,,026B,E27D,Velarized alveolar lateral approximant,https://en.wikipedia.org//wiki/Velarized_alveolar_lateral_approximant
+102,219,ᶑ,hooktop right-tail-D,,voiced,retroflex,imposive,,,,not explicitly IPA approved,1D91,E219,Voiced retroflex implosive,https://en.wikipedia.org//wiki/Voiced_retroflex_implosive
+107,291,ʞ,turned K,,,,,,,,withdrawn (1979),029E,E2F4,Back-released velar click,https://en.wikipedia.org//wiki/Back-released_velar_click
+116,301,i,lower-case I,,,,,close,front,unrounded,,0069,E251,Close front unrounded vowel,https://en.wikipedia.org//wiki/Close_front_unrounded_vowel
+117,302,e,lower-case E,,,,,close-mid,front,unrounded,,0065,E256,Close-mid front unrounded vowel,https://en.wikipedia.org//wiki/Close-mid_front_unrounded_vowel
+118,303,ɛ,epsilon,,,,,open-mid,front,unrounded,,025B,E258,Open-mid front unrounded vowel,https://en.wikipedia.org//wiki/Open-mid_front_unrounded_vowel
+119,304,a,lower-case A,,,,,open,front,unrounded,,0061,E25B,Open front unrounded vowel,https://en.wikipedia.org//wiki/Open_front_unrounded_vowel
+120,305,ɑ,script A,,,,,open,back,unrounded,,0251,E26C,Open back unrounded vowel,https://en.wikipedia.org//wiki/Open_back_unrounded_vowel
+121,306,ɔ,open O,,,,,open-mid,back,rounded,,0254,E26B,Open-mid back rounded vowel,https://en.wikipedia.org//wiki/Open-mid_back_rounded_vowel
+122,307,o,lower-case O,,,,,close-mid,back,rounded,,006F,E269,Close-mid back rounded vowel,https://en.wikipedia.org//wiki/Close-mid_back_rounded_vowel
+123,308,u,lower-case U,,,,,close,back,rounded,,0075,E265,Close back rounded vowel,https://en.wikipedia.org//wiki/Close_back_rounded_vowel
+124,309,y,lower-case Y,,,,,close,front,rounded,,0079,E252,Close front rounded vowel,https://en.wikipedia.org//wiki/Close_front_rounded_vowel
+125,310,ø,slashed O,,,,,close-mid,front,rounded,,00F8,E257,Close-mid front rounded vowel,https://en.wikipedia.org//wiki/Close-mid_front_rounded_vowel
+126,311,œ,lower-case O-E ligature,,,,,open-mid,front,rounded,,0153,E259,Open-mid front rounded vowel,https://en.wikipedia.org//wiki/Open-mid_front_rounded_vowel
+127,312,ɶ,small capital O-E ligature,,,,,open,front,rounded,,0276,E25C,Open front rounded vowel,https://en.wikipedia.org//wiki/Open_front_rounded_vowel
+128,313,ɒ,turned script A,,,,,open,back,rounded,,0252,E26D,Open back rounded vowel,https://en.wikipedia.org//wiki/Open_back_rounded_vowel
+129,314,ʌ,turned V,,,,,open-mid,back,unrounded,,028C,E26A,Open-mid back unrounded vowel,https://en.wikipedia.org//wiki/Open-mid_back_unrounded_vowel
+130,315,ɤ,ram’s horns,,,,,close-mid,back,unrounded,,0264,E268,Close-mid back unrounded vowel,https://en.wikipedia.org//wiki/Close-mid_back_unrounded_vowel
+131,316,ɯ,turned M,,,,,close,back,unrounded,,026F,E264,Close back unrounded vowel,https://en.wikipedia.org//wiki/Close_back_unrounded_vowel
+132,317,ɨ,barred I,,,,,close,central,unrounded,,0268,E25D,Close central unrounded vowel,https://en.wikipedia.org//wiki/Close_central_unrounded_vowel
+133,318,ʉ,barred U,,,,,close,central,rounded,,0289,E25E,Close central rounded vowel,https://en.wikipedia.org//wiki/Close_central_rounded_vowel
+134,319,ɪ,small capital I,,,,,near-close,near-front,unrounded,,026A,E254,Near-close near-front unrounded vowel,https://en.wikipedia.org//wiki/Near-close_near-front_unrounded_vowel
+135,320,ʏ,small capital Y,,,,,near-close,near-front,rounded,,028F,E255,Near-close near-front rounded vowel,https://en.wikipedia.org//wiki/Near-close_near-front_rounded_vowel
+136,321,ʊ,upsilon,,,,,near-close,near-back,rounded,,028A,E267,Near-close near-back rounded vowel,https://en.wikipedia.org//wiki/Near-close_near-back_rounded_vowel
+137,322,ə,schwa,,,,,mid,central,,,0259,E25F,Mid central vowel,https://en.wikipedia.org//wiki/Mid_central_vowel
+138,323,ɵ,barred O,,,,,close-mid,central,rounded,,0275,E261,Close-mid central rounded vowel,https://en.wikipedia.org//wiki/Close-mid_central_rounded_vowel
+139,324,ɐ,turned A,,,,,near-open,central,,,0250,E263,Near-open central vowel,https://en.wikipedia.org//wiki/Near-open_central_vowel
+140,325,æ,ash;lower-case A-E ligature,,,,,near-open,front,unrounded,,00E6,E25A,Near-open front unrounded vowel,https://en.wikipedia.org//wiki/Near-open_front_unrounded_vowel
+141,326,ɜ,reversed epsilon,,,,,open-mid,central,unrounded,,025C,E262,Open-mid central unrounded vowel,https://en.wikipedia.org//wiki/Open-mid_central_unrounded_vowel
+144,395,ɞ,closed reversed epsilon,,,,,open-mid,central,rounded,,025E,E270,Open-mid central rounded vowel,https://en.wikipedia.org//wiki/Open-mid_central_rounded_vowel
+146,397,ɘ,reversed E,,,,,close-mid,central,unrounded,,0258,E26E,Close-mid central unrounded vowel,https://en.wikipedia.org//wiki/Close-mid_central_unrounded_vowel

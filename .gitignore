@@ -14,3 +14,7 @@ yarn-error.log*
 
 # for now, we grab this from the web. it's large
 phoible.csv
+
+# we have some python in here
+*ipynb
+.ipynb_checkpoints/
