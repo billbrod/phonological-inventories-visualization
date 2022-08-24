@@ -52,8 +52,8 @@ function IPAChart(data, {
     x = map_place, // given d in data, returns the x-value
     y = map_manner, // given d in data, returns the y-value
     title, // given d in data, returns the title text
-    cellSize = 25, // width and height of an individual day, in pixels
-    cellPadding = 1,
+    cellSize = 25, // width and height of an individual box, in pixels
+    cellPadding = 1, // padding between boxes, in pixels
     yFormat, // format specifier string for values (in the title)
     marginTop = 80,
     marginLeft = 140,
@@ -74,14 +74,19 @@ function IPAChart(data, {
 
     // double cell width because each cell contains voiced and voiceless
     const width = 2 * (cellSize + cellPadding) * X_unique.length - cellPadding;
-    // const width = 2 * (cellSize + cellPadding) * 1 - cellPadding;
     const height = (cellSize + cellPadding) * Y_unique.length - cellPadding;
     const color = d3.schemeCategory10.slice(2, 4);
-    console.log(width, height)
 
-    xScale = d3.scaleBand(X_unique, [0, width]).paddingInner(cellPadding).paddingOuter(0)
-    voicedScale = d3.scaleBand(['voiceless', 'voiced'], [cellPadding, 2*cellSize + cellPadding]).padding(0)
-    yScale = d3.scaleBand(Y_unique, [0, height]).paddingInner(cellPadding).paddingOuter(0)
+    // for scaleBand, padding must be a proportion (between 0 and 1) of the
+    // total step, which this computes
+    cellPadding_prop = 1 - cellSize / (cellSize + cellPadding)
+    xScale = d3.scaleBand(X_unique, [0, width]).paddingInner(cellPadding_prop).paddingOuter(0)
+    console.log(xScale.bandwidth(), xScale.step())
+    voicedScale = d3.scaleBand(['voiceless', 'voiced'], [1.5*cellPadding, 2*cellSize + .5*cellPadding]).paddingInner(cellPadding_prop).paddingOuter(0)
+    console.log(voicedScale.bandwidth(), voicedScale.step())
+    console.log(voicedScale('voiceless'), voicedScale('voiced'))
+    console.log(xScale('bilabial'), xScale('labiodental'))
+    yScale = d3.scaleBand(Y_unique, [0, height]).paddingInner(cellPadding_prop).paddingOuter(0)
 
     var xAxis = d3.axisTop(xScale)
     var yAxis = d3.axisLeft(yScale)
@@ -116,7 +121,7 @@ function IPAChart(data, {
                          .attr('our_x', i => X[i])
                          .attr('our_y', i => Y[i])
                          .attr('our_voiced', i => Voiced[i])
-                         .attr("transform", i => `translate(${xScale(X[i]) + voicedScale(Voiced[i])}, ${yScale(Y[i])})`)
+                         .attr("transform", i => `translate(${xScale(X[i]) + voicedScale(Voiced[i])}, ${yScale(Y[i]) + cellPadding/2})`)
 
     cell.append("rect")
         .attr("width", cellSize - 1)
@@ -131,20 +136,18 @@ function IPAChart(data, {
         .attr('y', cellSize/2 + font_size/3)
         .attr('text-anchor', 'middle')
 
+    translate_regex = /translate\(([\d.]+), ?([\d.]+)\)/
     svg.append("g")
        .attr('id', 'yaxis')
        .call(yAxis)
        .selectAll('text')
-          .attr('y', 0)
           .attr('dy', cellSize/2 + font_size/2)
           .attr('x', -9)
           .style('text-anchor', 'end')
-
-    // create a copy of the axis line and shift it forward by one tick
-    second_tick = d3.select('#yaxis').selectAll('.tick').nodes()[1]
-    translate_regex = /translate\(([\d.]+), ?([\d.]+)\)/
-    second_tick_translate = translate_regex.exec(second_tick.attributes.transform.textContent)[2]
-    d3.select('#yaxis').select('path').clone().attr('transform', `translate(0, ${second_tick_translate})`)
+    orig_transform = d3.map(d3.select('#yaxis').selectAll('.tick'),
+                            t => Number(translate_regex.exec(t.attributes.transform.textContent)[2]))
+    d3.select('#yaxis').selectAll('.tick')
+      .attr('transform', (t, i) => `translate(0, ${orig_transform[i] - cellSize/2})`)
 
     svg.append("g")
        .attr('id', 'xaxis')
@@ -155,13 +158,10 @@ function IPAChart(data, {
           .attr('x', 9)
           .style('text-anchor', 'start')
           .attr('transform', 'rotate(-90)')
-
-    // create a copy of the axis line and shift it forward by one tick
-    second_tick = d3.select('#xaxis').selectAll('.tick').nodes()[1]
-    translate_regex = /translate\(([\d.]+), ?([\d.]+)\)/
-    second_tick_translate = translate_regex.exec(second_tick.attributes.transform.textContent)[1]
-    d3.select('#xaxis').select('path').clone().attr('transform', `translate(${second_tick_translate}, 0)`)
-
+    orig_transform = d3.map(d3.select('#xaxis').selectAll('.tick'),
+                            t => Number(translate_regex.exec(t.attributes.transform.textContent)[1]))
+    d3.select('#xaxis').selectAll('.tick')
+      .attr('transform', (t, i) => `translate(${orig_transform[i] - cellSize}, 0)`)
 
     if (title) cell.append("title")
                    .text(title);
