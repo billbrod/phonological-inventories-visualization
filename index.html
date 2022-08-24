@@ -3,10 +3,20 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Untitled</title>
+        <title>IPA Chart</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js"> </script>
+        <script type="text/x-mathjax-config">
+         MathJax.Ajax.config.path["ipa"] = "https://cdn.rawgit.com/anumat/IPAjs/master/";
+
+         MathJax.Hub.Config({
+             extensions: ["tex2jax.js", "[ipa]/ipa.js"],
+             jax: ["input/TeX","output/HTML-CSS"],
+             tex2jax: {inlineMath: [['$','$']]}
+         });
+        </script>
         <script type="text/javascript" src="ipa_chart.js"></script>
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
@@ -17,20 +27,18 @@
         <svg id='vowels'></svg>
     </body>
     <script type="text/javascript">
+     // something weird about the overall, cellSize, cellPading computations
+     // for squares, click on them to get link to wikipedia page, add a play button to hear sound
      d3.csv("ipa_data.csv")
        .then(function(ipa) {
-        console.log(ipa)
         IPAChart(ipa, {
-          x: d => d.Place_of_Articulation,
-          y: d => d.Manner_of_Articulation,
           title: d => d.name,
         })
        })
-     d3.csv("https://raw.githubusercontent.com/phoible/dev/master/data/phoible.csv")
-       .then(function(phoible) {
-           phoible = phoible.filter(x => x.LanguageName == "Standard Yiddish")
-           console.log(phoible)
-       })
+     // d3.csv("https://raw.githubusercontent.com/phoible/dev/master/data/phoible.csv")
+     //   .then(function(phoible) {
+     //       phoible = phoible.filter(x => x.LanguageName == "Standard Yiddish")
+     //   })
     </script>
 
 </html>
