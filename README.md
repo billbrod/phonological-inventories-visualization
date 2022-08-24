@@ -21,6 +21,4 @@ Helpful links:
       apparently an open problem
     - possible solution: find grapheme that shows up most commonly in
       words/phrases containing the phoneme
-- [IPA.js](https://anumat.com/blog/ipa-js/) for writing IPA symbols easily using
-  mathjax
 - [PHOIBLE FAQs](https://phoible.github.io/)
